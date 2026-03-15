@@ -1,4 +1,3 @@
-# Summer-Olympics_analysis-1896-2024-
 # 🏅 Summer Olympics Data Analytics Dashboard (1896–2024)
 
 ## Project Overview
@@ -26,10 +25,10 @@ It helps users analyse trends in athlete participation, medal distribution, coun
 👉 *[https://summer-olympic-analysis.streamlit.app/]*
 
 ## 📁 Dataset
+noc_regio.csv
+olympics_dataset.zip
 
-Historical Summer Olympics dataset including athlete details, events, medals, and participating nations.
-
-## 🎯 Objective
+## Objective
 
 To perform exploratory data analysis and build an **interactive web dashboard** that provides meaningful insights into Olympic history.
 
