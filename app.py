@@ -22,7 +22,9 @@ st.markdown("---")
 
 
 # ---------- LOAD DATA ----------
-df = pd.read_csv('olympics_dataset.csv')
+import zipfile
+with zipfile.ZipFile("olympics_dataset.zip") as z:
+    df = pd.read_csv(z.open("olympics_dataset.csv"))
 region_df = pd.read_csv('noc_regions.csv')
 
 df = preprocessor.preprocess(df, region_df)
