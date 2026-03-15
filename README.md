@@ -24,8 +24,9 @@ It helps users analyse trends in athlete participation, medal distribution, coun
 
 👉 *[https://summer-olympic-analysis.streamlit.app/]*
 
-## 📁 Dataset
+## Dataset
 noc_regio.csv
+
 olympics_dataset.zip
 
 ## Objective
